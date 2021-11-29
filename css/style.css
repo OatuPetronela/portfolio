@@ -112,7 +112,7 @@
     .logo img {
         min-width: 100px;
         width: 90%;
-        height: 150px;
+        height: 120px;
     }
     
     .nav {
@@ -148,6 +148,49 @@
     
     .nav__link:hover {
         color: var(--clr-accent)
+    }
+    /* create menu hambuger */
+    
+    .nav-toggle {
+        padding: .5em;
+        background: transparent;
+        border: 0;
+        cursor: pointer;
+        right: 0;
+        position: absolute;
+        top: 2em;
+        z-index: 1000;
+    }
+    
+    .hamburger {
+        display: block;
+        position: relative;
+    }
+    
+    .hamburger,
+    .hamburger::before,
+    .hamburger::after {
+        background: var(--clr-accent);
+        width: 2em;
+        height: 2px;
+        border-radius: 3em;
+        transition: transform 250ms ease-in-out;
+    }
+    
+    .hamburger::before,
+    .hamburger::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+    
+    .hamburger::before {
+        top: 6px;
+    }
+    
+    .hamburger::after {
+        bottom: 6px;
     }
     /* Intro section */
     
