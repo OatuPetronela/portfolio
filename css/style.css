@@ -333,6 +333,10 @@
         text-align: center;
         padding: 2.5em 0;
         height: 6em;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
     }
     
     .footer a {
