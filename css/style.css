@@ -337,6 +337,7 @@
         left: 0;
         bottom: 0;
         width: 100%;
+        position: relative;
     }
     
     .footer a {
@@ -362,4 +363,17 @@
     
     .social-list__link {
         padding: .5em;
+    }
+    /* individual portfolio item style */
+    
+    .portfolio-item-individual {
+        padding: 0 2em 2em;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    
+    .portfolio-item-individual p {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
     }
