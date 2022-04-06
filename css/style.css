@@ -125,7 +125,6 @@
         color: var(--clr-light);
         top: 0;
         bottom: 0;
-        left: 0;
         right: 0;
         z-index: 100;
         transform: translateX(100%);
@@ -139,7 +138,7 @@
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        margin: 0;
+        margin: 25px;
         padding: 0;
     }
     
@@ -188,8 +187,7 @@
     .hamburger::after {
         background: var(--clr-accent);
         width: 2em;
-        height: 2px;
-        border-radius: 3em;
+        height: 2.5px;
         transition: transform 250ms ease-in-out;
     }
     
@@ -295,12 +293,6 @@
         font-size: var(--fs-h3);
     }
     
-    .portfolio {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr)
-        /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
-    }
-    
     .portfolio__item {
         overflow: hidden;
         cursor: pointer;
@@ -309,10 +301,10 @@
     .portfolio__img {
         transition: transform 750ms cubic-bezier(.5, 0, .5, 1), opacity 250ms linear;
         min-width: 300px;
-        margin: 05px;
+        margin: 4px;
         object-fit: cover;
         width: 100%;
-        height: 19em;
+        height: 19.3em;
     }
     
     .portfolio__item:focus {
@@ -324,6 +316,15 @@
     .portfolio__item:focus .portfolio__img {
         transform: scale(1.2);
         opacity: .5;
+    }
+    
+    .btn-cv {
+        background-color: var(--clr-accent);
+        font-weight: bolder;
+    }
+    
+    .btn-cv:hover {
+        background-color: greenyellow;
     }
     /* styling the Footer */
     

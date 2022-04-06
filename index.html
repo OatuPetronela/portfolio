@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -48,7 +49,7 @@
     <!-- About me -->
     <section class="about-me" id="about">
         <h2 class="section__title section__title--about"> Who I am </h2>
-        <p class="section__subtitle  section__subtitle--about">Web Developer</p>
+        <p class="section__subtitle  section__subtitle--about">Junior Front-End Developer</p>
 
         <div class="about-me__body">
             <p>I'm Oatu Petronela, a Junior Front-End Web Developer with experience in creating websites from scratch. The main technologies I use are HTML, CSS, JavaScript, PHP, SQL, WordPress and, given their versatility, I am interested in learning more
@@ -61,30 +62,59 @@
 
         <h2 class="section__title--work">My Work</h2>
         <p class="section__subtitle--work">A selection of my range of work</p>
-        <div class="portfolio">
-            <!-- fist project but portfolio -->
-            <a href="https://github.com/OatuPetronela/movie-website" class="portfolio__item">
-                <img src="/image/img-03.png" alt="first project" class="portfolio__img">
-            </a>
-            <!-- second project but portfolio -->
-            <a href="https://github.com/OatuPetronela/online-shop" class="portfolio__item">
-                <img src="/image/img-04.png" alt="second project" class="portfolio__img">
-            </a>
-            <!-- third project but portfolio -->
-            <a href="https://github.com/OatuPetronela/play-with-css" class="portfolio__item">
-                <img src="/image/img-06.png" alt="third project" class="portfolio__img">
-            </a>
-            <a href="https://github.com/OatuPetronela/clock" class="portfolio__item">
-                <img src="/image/img-05.png" alt="fourth project" class="portfolio__img">
-            </a>
-        </div>
 
+        <div class="row">
+            <div class="col-md-6">
+                <!-- fist project but portfolio -->
+                <a href="https://project-library.netlify.app/" target="_blank" class="portfolio__item">
+                    <img src="/image/img-10.jpg" alt="first project" class="portfolio__img">
+                </a>
+            </div>
+            <div class="col-md-6">
+                <!-- second project but portfolio -->
+                <a href="https://github.com/OatuPetronela/movie-website" target="_blank" class="portfolio__item">
+                    <img src="/image/img-03.png" alt="second project" class="portfolio__img">
+                </a>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <!-- third project but portfolio -->
+                <a href="https://github.com/OatuPetronela/online-shop" target="_blank" class="portfolio__item">
+                    <img src="/image/img-04.png" alt="second project" class="portfolio__img">
+                </a>
+            </div>
+            <div class="col-md-6">
+                <!-- fouth project but portfolio -->
+                <a href="https://github.com/OatuPetronela/clock" target="_blank" class="portfolio__item">
+                    <img src="/image/img-05.png" alt="fourth project" class="portfolio__img">
+                </a>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <!-- third project but portfolio -->
+                <a href="https://github.com/OatuPetronela/play-with-css" target="_blank" class="portfolio__item">
+                    <img src="/image/img-06.png" alt="third project" class="portfolio__img">
+                </a>
+            </div>
+            <div class="col-md-6">
+                <!-- fouth project but portfolio -->
+                <a href="https://github.com/OatuPetronela/clock" target="_blank" class="portfolio__item">
+                    <img src="/image/img-05.png" alt="fourth project" class="portfolio__img">
+                </a>
+            </div>
+        </div>
+        <div>
+            <a href="/cv/Oatu Petronela- CV- En.pdf" class="btn btn-cv mt-4" download>Download CV</a>
+        </div>
     </section>
     <!-- Footer -->
     <footer class="footer">
         <ul class="social-list">
             <li class="social-list__item">
-                <a href="https://www.linkedin.com/in/petronela-oatu-0127611b1/" class="social-list__link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/petronela-oatu-0127611b1/" class="social-list__link"><i
+                        class="fab fa-linkedin"></i></a>
             </li>
             <li class="social-list__item">
                 <a href="#" class="social-list__link"><i class="far fa-envelope"></i></a>
@@ -94,8 +124,8 @@
             </li>
         </ul>
     </footer>
-
     <script src="/index.js"></script>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </html>
